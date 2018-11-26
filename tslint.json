@@ -1,0 +1,106 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ],
+  "rules": {
+    "array-bracket-spacing": [
+      true,
+      "never"
+    ],
+    "object-literal-sort-keys": false,
+    "ter-arrow-spacing": true,
+    "arrow-parens": true,
+    "block-spacing": [
+      true,
+      "always"
+    ],
+    "brace-style": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
+        "esSpecCompliant": true
+      }
+    ],
+    "ter-computed-property-spacing": [
+      true,
+      "never"
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check",
+      "allow-undefined-check"
+    ],
+    "eofline": true,
+    "ter-indent": [
+      true,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "ter-max-len": [
+      true,
+      120,
+      4
+    ],
+    "new-cap": [
+      false,
+      {
+        "capIsNew": true,
+        "newIsCap": true
+      }
+    ],
+    "no-unused-expression": true,
+    "no-shadowed-variable": false,
+    "no-consecutive-blank-lines": true,
+    "no-multi-spaces": true,
+    "no-duplicate-case": true,
+    "no-conditional-assignment": true,
+    "no-extra-semi": true,
+    "no-extra-boolean-cast": true,
+    "no-trailing-whitespace": true,
+    "no-var-keyword": true,
+    "one-variable-per-declaration": true,
+    "ter-padded-blocks": [
+      true,
+      "never"
+    ],
+    "prefer-arrow-callback": false,
+    "prefer-const": true,
+    "prefer-template": true,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "space-before-function-paren": [
+      true,
+      "never"
+    ],
+    "comment-format": true,
+    "no-case-declarations": false,
+    "babel/object-shorthand": false,
+    "babel/new-cap": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ]
+  }
+}
